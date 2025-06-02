@@ -1,4 +1,5 @@
 Flutter Firebase CRUD Auth
+
 Bu proje, Flutter ve Firebase kullanılarak oluşturulmuş bir mobil uygulamadır. Uygulama, kullanıcıların kimlik doğrulaması yapmasını ve Firebase Firestore veritabanı üzerinde CRUD işlemleri gerçekleştirmesini sağlar.
 
 🚀 Özellikler
