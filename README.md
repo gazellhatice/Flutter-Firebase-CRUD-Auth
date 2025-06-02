@@ -1,16 +1,50 @@
-# firebase_practice
+Flutter Firebase CRUD Auth
+Bu proje, Flutter ve Firebase kullanılarak oluşturulmuş bir mobil uygulamadır. Uygulama, kullanıcıların kimlik doğrulaması yapmasını ve Firebase Firestore veritabanı üzerinde CRUD işlemleri gerçekleştirmesini sağlar.
 
-A new Flutter project.
+🚀 Özellikler
+Firebase Authentication ile kullanıcı kayıt ve giriş işlemleri
 
-## Getting Started
+Firestore veritabanı ile veri ekleme, okuma, güncelleme ve silme işlemleri
 
-This project is a starting point for a Flutter application.
+Kullanıcı dostu arayüz
 
-A few resources to get you started if this is your first Flutter project:
+Gerçek zamanlı veri güncellemeleri
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🛠️ Kurulum
+Bu repoyu klonlayın:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+Kopyala
+Düzenle
+git clone https://github.com/gazellhatice/Flutter-Firebase-CRUD-Auth.git
+
+2. Proje dizinine gidin:
+
+bash
+Kopyala
+Düzenle
+cd Flutter-Firebase-CRUD-Auth
+
+3. Gerekli paketleri yükleyin:
+
+bash
+Kopyala
+Düzenle
+flutter pub get
+
+4. Firebase projesi oluşturun ve google-services.json (Android) ve GoogleService-Info.plist (iOS) dosyalarını ilgili dizinlere ekleyin.
+
+📱 Ekran Görüntüleri
+Projenin Assets/Images klasöründe uygulamaya ait ekran görüntüleri bulunmaktadır.
+
+📂 Proje Yapısı
+lib/ - Uygulama kaynak kodları
+
+android/ - Android platforma özel dosyalar
+
+ios/ - iOS platforma özel dosyalar
+
+Assets/Images/ - Uygulama ekran görüntüleri
+
+📄 Lisans
+Bu proje Apache 2.0 Lisansı ile lisanslanmıştır.
